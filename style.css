@@ -1,0 +1,180 @@
+
+body{
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: black;
+    direction: ltr;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+#fpage{
+    
+    background-image: url("images/fpage.jpg");
+    
+    
+    width: 100%;
+    margin-left: 0.1rem;
+    
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+    
+}
+#ifp{
+    background-color: rgba(0, 0, 0, 0.425);
+    
+}
+#fpage img{
+    width: 12%;
+    height: 13%;
+}
+
+
+#hdr{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+#btop{
+    width: 100%;
+    padding-top: 7%;
+
+}
+h1{
+    padding-top: 7%;
+    font-size: 3rem;
+    font-weight: 550;
+}
+h2{
+    font-weight: 450;
+    font-size: 1.9rem;
+}
+.eml{
+    align-items: center;
+}
+#btns{
+    background-color:#e50914;
+}
+#page2{
+    width: 100%;
+    height: 44rem;
+    background-color: black;
+    
+}
+#tv{
+    position: relative;
+}
+#lpage{
+    
+    background-color: black;
+    color: aliceblue;
+    
+    padding-left: 25%;
+    padding-right: 15%;
+    align-items: center;
+    justify-content: center;
+}
+#acmenu{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+#lpage h1{
+    font-size: 3rem;
+    padding: 3rem 0 4rem 0;
+}
+.title{
+    background-color: #303030;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+.icon{
+    width: 20px;
+    position: relative;
+}
+.icon::before, .icon::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: #fff;
+    top: -1.5px;
+}
+.icon::after {
+    transform: rotate(90deg);
+    transition: 0.2s linear;
+}
+.text{
+    background-color: #303030;
+    line-height: 35px;
+    margin: 3px 0;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    height: 0;
+    opacity: 0;
+}
+.item:target .text{
+    opacity: 1;
+    height: auto;
+    padding: 20px 30px;
+    margin: 0;
+    border-top: 2px solid #000;
+    margin-bottom: 6px;
+}
+.item:target .icon::after {
+    transform: rotateY(90deg);
+}
+.title:hover{
+    color: #fff;
+}
+#ftr{
+    background-color: #000;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#infooter{
+    width: 15%;
+}
+#fts{
+    background-color: #000;
+}
+.blck{
+background-color: #000;
+}
+.btn-custom{
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 4px;
+padding-right: 4px;
+border-width: 1px;
+background-color: black;
+color: white;
+position: relative;
+}
+.glb{
+    position: absolute;
+    left: 0;
+    color: grey;
+}
+.atg a{
+    color: grey;
+    text-decoration: none;
+}
+.atg a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
